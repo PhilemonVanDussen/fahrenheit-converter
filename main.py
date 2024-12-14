@@ -7,6 +7,5 @@ def convert_to_fahrenheit(celsius):
     return fahrenheit_temp
 
 
-for celsius in range(0, 7):
-    convert_to_fahrenheit(celsius)
-    print(f'Celsius: {celsius}  Fahrenheit: {fahrenheit_temp.convert_to_fahrenheit()}')
+for celsius in range(0, 8):
+    print(f'Celsius: {celsius}  Fahrenheit: {convert_to_fahrenheit(celsius)}')
